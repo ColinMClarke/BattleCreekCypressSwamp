@@ -1,26 +1,7 @@
-body {
-    background-color: #A8E58A; /* Coolors.co was used to identify a unified color palette with good performacne characteristics. This color is colorblind-friendly and contrast friendly for the intended text colors. */
-    color: black; /*Determines default color*/
-
-    font-family: Aptos; /*Determines the font for body text. */
-}
-
-h1, h2, h3, h4 {
-    font-family: AR Julian; /*Determines the font for all headings */
-}
-
-.navStyling{
-    background-color: aqua;
-}
-
-
-
-
-
-/* Styles the navigation menu.*/
-/* Add a black background color to the top navigation */
+/************ This first section is for the NAVIGATION MENU.*******************/
+/* Add a background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #02492f;
   overflow: hidden;
 }
 
@@ -32,19 +13,18 @@ h1, h2, h3, h4 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 24px;
 }
 
-/* Change the color of links on hover */
+/* Add an underline color to links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  text-decoration: underline #a09898;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #02492f;
+  color: rgb(175, 30, 30);
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -52,11 +32,7 @@ h1, h2, h3, h4 {
   display: none;
 }
 
-
-
-
-
-
+/*****RESPONSIVE RULES for NAVIGATION*****/
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
@@ -81,3 +57,34 @@ h1, h2, h3, h4 {
     text-align: left;
   }
 }
+
+
+
+/****************** Section for DEFAULT RULES and SMALL SCREENS *****************/
+
+.websiteTitle{
+  text-align: center;
+}
+
+
+
+
+
+
+body {
+    background-color: #A8E58A; /* Coolors.co was used to check that my color palette has good performacne characteristics. This color is colorblind-friendly and contrast friendly for the intended text colors. */
+    color: black; /*Determines default color*/
+    font-family: Aptos; /*Determines the font for body text. */
+}
+
+h1, h2, h3, h4 {
+    font-family: AR Julian; /*Determines the font for all headings */
+}
+
+img { /* This section scales the images up and down to the screen size. */
+  max-width: 100%;
+  height: auto;
+}
+
+
+
