@@ -67,10 +67,6 @@
 }
 
 
-
-
-
-
 body {
     background-color: #A8E58A; /* Coolors.co was used to check that my color palette has good performacne characteristics. This color is colorblind-friendly and contrast friendly for the intended text colors. */
     color: black; /*Determines default color*/
@@ -81,10 +77,42 @@ h1, h2, h3, h4 {
     font-family: AR Julian; /*Determines the font for all headings */
 }
 
+h3 { /*Centers all subtitles. */
+  text-align: center;
+}
+
 img { /* This section scales the images up and down to the screen size. */
   max-width: 100%;
   height: auto;
 }
 
+.textBox{ /** Gives styling to all text boxes **/
+  background-color: white;
+  display:block;
+  margin: 20px;
+}
+
+/*** HOME PAGE CONTENT ***/
+
+.column1{ 
+  display: block;
+  padding-top:5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.column2{ 
+  display: block;
+  padding-top:5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
 
 
+/******************* MEDIA QUERY Section for LARGE SCREENS *********************/
+@media screen and (min-width: 601px) { /* Defines responsive styling for screens that reach or exceed 601 pixels (desktops, laptops and most tablets). */
+
+
+}
