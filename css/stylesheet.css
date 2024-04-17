@@ -135,6 +135,57 @@ footer{
 }
 
 
+/*** THINGS TO DO PAGE CONTENT***/
+
+.thingsImg { /* Styles all images on things to do page.*/
+  max-width: 250px;
+  margin-top: 15px;
+ 
+}
+
+.thingsGrid { /* Makes a 2 column layout for images and their accompanying text. */
+  display: grid;
+  grid-template-columns: auto auto; /* Each "auto" creates a column with auto sizing. Repeating it 2 times makes 2 columns. */
+  grid-template-rows: auto; /* Rows were not defined explicitly. The extra grid items make implicit rows appear until out of items. */
+  grid-gap: 40px; /* Makes space between images. */
+}
+
+.things1Left {
+  grid-area: 1 / 1 ;
+}
+
+.things1Right {
+  grid-area: 1 / 2 ;
+}
+
+.things2Left {
+  grid-area: 2 / 1;
+}
+
+.things2Right {
+  grid-area: 2 / 2;
+}
+
+.things3Left {
+  grid-area: 3 / 1;
+}
+
+.things3Right {
+  grid-area: 3 / 2;
+}
+
+.things4Left {
+  grid-area: 4 / 1;
+}
+
+.things4Right {
+  grid-area: 4 / 2;
+}
+
+.things1Right, .things2Right,.things3Right,.things4Right{ /* Styling for right column text.*/
+  padding-top: 30px; 
+}
+
 /****************** MEDIA QUERY Section for MEDIUM SCREENS*******************/
 @media screen and (min-width: 601px)and (max-width: 1007px) { /* Defines responsive styling for small laptops and most tablets. */
 
@@ -151,6 +202,14 @@ footer{
     flex: 1; /* Makes each container take up equal space (HOMEPAGE)*/
   }
 
+  .thingsImg { /* Styles all images (THINGS TO DO PAGE).*/
+    max-width: 350px;
+    margin-top: 15px;
+  }
+
+  .contentTextBox {
+    padding-bottom: 20px;
+  }
 }
 
 
@@ -185,9 +244,16 @@ footer{
     flex: 1; /* Makes each container take up equal space (HOMEPAGE)*/
   }
 
-  .contentTextBox{
+  .contentTextBox{ /* Rules for textboxes on all pages expect home.*/
     width: 70%;
     margin:auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .thingsImg { /* Styles all images (THINGS TO DO PAGE).*/
+    max-width: 350px;
+    margin-top: 15px;
   }
 
   footer{
