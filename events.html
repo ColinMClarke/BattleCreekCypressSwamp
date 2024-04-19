@@ -98,16 +98,20 @@
                         <input name="email" id="email" type="email" placeholder="example@organization.com" required>
                     <label for="phone">Enter your phone number:</label>
                         <input name="phone" id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-5555" required>
-                    <label for="contact">Choose your prefered contact:</label>
+                    <label for="event">Choose your event:</label>
                         <select name="contact" id="contact" initial-value="Email me"> <!-- Note the "initial value" which chooses a default selection. -->
                             <option value="Teen Birding Duck Hike">Teen Birding Duck Hike</option>
                             <option value="Magnificent Mammals">Magnificent Mammals</option>
                             <option value="Worm Full Moon Hike">Worm Full Moon Hike</option>
                             <option value="Extraodinary Eggs">Extraordinary Eggs</option>
-                        </select>
-                    <label for="question">Leave your question or comment:</label>
-                        <textarea id="question" name="question" rows="4" cols="50" placeholder="Type here"></textarea>
-                    <button input type="submit">Register now! </button> <!-- Note input type. -->
+                          </select>
+                    <label for="adults">How many adults (18+)?</label> 
+                      <input name="adults" id="adults" type="number" placeholder="0" required>
+                    <label for="teens">How many teens (13-17)?</label>
+                      <input name="teens" id="teens" type="number" placeholder="0" required>
+                    <label for="children">How many children (0-12)?</label> 
+                      <input name="children" id="children" type="number" placeholder="0" required>      
+                    <button input type="submit"><b>Register now!</b></button> <!-- Note input type. -->
                 </form>
 
         </div>

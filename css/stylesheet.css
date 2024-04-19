@@ -100,7 +100,7 @@ img { /* This section scales the images up and down to the screen size. */
   background-color: white;
 }
 
-input[type=text], input[type=email], input[type=tel], select { /* Styles all fields on forms. */
+input[type=text], input[type=email], input[type=tel], input[type=number], select { /* Styles all fields on forms. */
   width: 100%; 
   padding: 12px 20px;
   margin: 8px 0;
