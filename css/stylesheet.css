@@ -507,6 +507,13 @@ footer{
   .eventsImg1, .eventsImg2, .eventsImg3, .eventsImg4, .eventsImg5, .eventsImg6 { 
     height: 100%; /*Makes images uniform size. */
     padding-top: 50px;
-
   }
+
+  /* Different background color for the form button on large screens. */
+  button {
+    background-color: #a09898
+  }
+
+
+
 }
