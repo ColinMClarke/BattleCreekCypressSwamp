@@ -90,6 +90,26 @@
 
           </div>
 
+          <p>Please fill out this form to register for one of our events.</p>    
+                <form action="https://webdevbasics.net/scripts/demo.php" method="post"> <!-- This section creates the form elements. -->
+                    <label for="name">Name:</label> <!-- First field. -->
+                        <input name="name" id="name" type="text" placeholder="First Last" required> <!-- Details for first field -->
+                    <label for="email">Enter your email:</label>
+                        <input name="email" id="email" type="email" placeholder="example@organization.com" required>
+                    <label for="phone">Enter your phone number:</label>
+                        <input name="phone" id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-5555" required>
+                    <label for="contact">Choose your prefered contact:</label>
+                        <select name="contact" id="contact" initial-value="Email me"> <!-- Note the "initial value" which chooses a default selection. -->
+                            <option value="Teen Birding Duck Hike">Teen Birding Duck Hike</option>
+                            <option value="Magnificent Mammals">Magnificent Mammals</option>
+                            <option value="Worm Full Moon Hike">Worm Full Moon Hike</option>
+                            <option value="Extraodinary Eggs">Extraordinary Eggs</option>
+                        </select>
+                    <label for="question">Leave your question or comment:</label>
+                        <textarea id="question" name="question" rows="4" cols="50" placeholder="Type here"></textarea>
+                    <button input type="submit">Register now! </button> <!-- Note input type. -->
+                </form>
+
         </div>
       </main>
         
