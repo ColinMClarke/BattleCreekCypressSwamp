@@ -120,7 +120,7 @@ textarea, select { /* Styles the text input box on forms. */
   box-sizing: border-box;
 }
 
-/* Style the submit button */
+/* Style the submit button and back button (on the map page) */
 button {
   width: 100%;
   background-color:  #A8E58A;
@@ -140,7 +140,7 @@ button {
 
 .map{ /* Styles the map page.*/
   display: block;
-  max-width: 70%;
+  max-width: 85%;
   margin: auto;
 }
 
@@ -330,6 +330,12 @@ footer{
     padding-bottom: 20px;
   }
 
+  .map{ /* Styles the map page.*/
+    display: block;
+    max-width: 80%;
+    margin: auto;
+  }
+
   /*** EVENTS page medium screens***/
 
   .eventsGrid {
@@ -394,8 +400,18 @@ footer{
   .eventsImg1, .eventsImg2, .eventsImg3, .eventsImg4, .eventsImg5, .eventsImg6 { 
     height: 100%; /*Makes images uniform size. */
     padding-top: 50px;
-
   }
+
+    button { /* Smaller button for medium screen. */
+      display: block;
+      width: 50%;
+      margin:auto;
+      background-color: #a09898;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  
 }
 
 
@@ -448,6 +464,12 @@ footer{
     display:block;
     margin:auto;
     width: 70%;
+  }
+
+  .map{ /* Styles the map page.*/
+    display: block;
+    max-width: 70%;
+    margin: auto;
   }
 
 
@@ -518,9 +540,14 @@ footer{
     padding-top: 50px;
   }
 
-  /* Different background color for the form button on large screens. */
+  /* Different size and background color for the form and back (from map) button on large screens. */
   button {
-    background-color: #a09898
+    display: block;
+    width: 50%;
+    margin:auto;
+    background-color: #a09898;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
 
