@@ -138,6 +138,15 @@ button {
     background-color: yellow;
   }
 
+.map{ /* Styles the map page.*/
+  display: block;
+  max-width: 70%;
+  margin: auto;
+}
+
+.returnFromMap { /* Styles the return button on the map page.*/
+  font-family: Aptos;
+}
 
 footer{
   background-color: #057a0f;
