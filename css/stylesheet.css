@@ -186,6 +186,78 @@ footer{
   padding-top: 30px; 
 }
 
+
+/*** EVENTS PAGE CONTENT***/
+
+.eventsGrid {
+  display: grid;
+  grid-template-columns: auto auto; /* Each "auto" creates a column with auto sizing. Repeating it 2 times makes 2 columns. */
+  grid-template-rows: auto; /* Rows were not defined explicitly. The extra grid items make implicit rows appear until out of items. */
+  grid-gap: 20px; /* Makes space between images. */
+ 
+}
+
+.eventsHeading {
+  grid-area: 1 / 1 / span 1 / span 2;
+}
+
+.eventsImg1{
+  grid-area: 2 / 1;
+}
+
+.eventsCaption1 {
+  grid-area: 3 / 1;
+}
+
+.eventsImg2{
+  grid-area: 2 / 2;
+}
+
+.eventsCaption2 {
+  grid-area: 3 / 2;
+}
+
+.eventsImg3{
+  grid-area: 4 /1 ;
+}
+
+.eventsCaption3 {
+  grid-area: 5 / 1;
+}
+
+.eventsImg4{
+  grid-area: 4 / 2;
+}
+
+.eventsCaption4 {
+  grid-area: 5 / 2;
+}
+
+.eventsImg5{
+  grid-area: 7 / 1;
+}
+
+.eventsCaption5 {
+  grid-area: 8 / 1;
+}
+
+.eventsImg6{
+  grid-area: 7 / 2;
+}
+
+.eventsCaption6 {
+  grid-area: 8 / 2;
+}
+
+.eventsImg1, .eventsImg2, .eventsImg3, .eventsImg4, .eventsImg5, .eventsImg6 { 
+  height: 100%; /*Makes images uniform size. */
+  padding-top: 50px;
+}
+
+
+
+
+
 /****************** MEDIA QUERY Section for MEDIUM SCREENS*******************/
 @media screen and (min-width: 601px)and (max-width: 1007px) { /* Defines responsive styling for small laptops and most tablets. */
 
@@ -210,7 +282,73 @@ footer{
   .contentTextBox {
     padding-bottom: 20px;
   }
+
+  /*** EVENTS page medium screens***/
+
+.eventsGrid {
+  display: grid;
+  grid-template-columns: auto auto auto; /* Each "auto" creates a column with auto sizing. Repeating it 2 times makes 2 columns. */
+  grid-template-rows: auto; /* Rows were not defined explicitly. The extra grid items make implicit rows appear until out of items. */
+  grid-gap: 20px; /* Makes space between images. */
+ 
 }
+
+.eventsHeading {
+  grid-area: 1 / 1 / span 1 / span 3;
+}
+
+.eventsImg1{
+  grid-area: 2 / 1;
+}
+
+.eventsCaption1 {
+  grid-area: 3 / 1;
+}
+
+.eventsImg2{
+  grid-area: 2 / 2;
+}
+
+.eventsCaption2 {
+  grid-area: 3 / 2;
+}
+
+.eventsImg3{
+  grid-area: 2 /3 ;
+}
+
+.eventsCaption3 {
+  grid-area: 3 / 3;
+}
+
+.eventsImg4{
+  grid-area: 4 / 1;
+}
+
+.eventsCaption4 {
+  grid-area: 5 / 1;
+}
+
+.eventsImg5{
+  grid-area: 4 / 2;
+}
+
+.eventsCaption5 {
+  grid-area: 5 / 2;
+}
+
+.eventsImg6{
+  grid-area: 4 / 3;
+}
+
+.eventsCaption6 {
+  grid-area: 5 / 3;
+}
+
+
+}
+
+
 
 
 /******************* MEDIA QUERY Section for LARGE (desktop SCREENS *********************/
@@ -261,5 +399,68 @@ footer{
     margin:auto;
     width: 70%;
   }
+
+
+   /*** EVENTS page large screens***/
+
+.eventsGrid {
+  display: grid;
+  grid-template-columns: auto auto auto; /* Each "auto" creates a column with auto sizing. Repeating it 2 times makes 2 columns. */
+  grid-template-rows: auto; /* Rows were not defined explicitly. The extra grid items make implicit rows appear until out of items. */
+  grid-gap: 20px; /* Makes space between images. */
+ 
+}
+
+.eventsHeading {
+  grid-area: 1 / 1 / span 1 / span 3;
+}
+
+.eventsImg1{
+  grid-area: 2 / 1;
+}
+
+.eventsCaption1 {
+  grid-area: 3 / 1;
+}
+
+.eventsImg2{
+  grid-area: 2 / 2;
+}
+
+.eventsCaption2 {
+  grid-area: 3 / 2;
+}
+
+.eventsImg3{
+  grid-area: 2 /3 ;
+}
+
+.eventsCaption3 {
+  grid-area: 3 / 3;
+}
+
+.eventsImg4{
+  grid-area: 4 / 1;
+}
+
+.eventsCaption4 {
+  grid-area: 5 / 1;
+}
+
+.eventsImg5{
+  grid-area: 4 / 2;
+}
+
+.eventsCaption5 {
+  grid-area: 5 / 2;
+}
+
+.eventsImg6{
+  grid-area: 4 / 3;
+}
+
+.eventsCaption6 {
+  grid-area: 5 / 3;
+}
 
 }
