@@ -233,6 +233,11 @@ footer{
   padding-top: 30px; 
 }
 
+.closed { 
+  background: red;
+  color:white;
+  padding:10px;
+}
 
 /*** EVENTS PAGE CONTENT***/
 
