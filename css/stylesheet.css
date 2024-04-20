@@ -69,7 +69,7 @@
 body {
     background-color: #A8E58A; /* Coolors.co was used to check that my color palette has good performacne characteristics. This color is colorblind-friendly and contrast friendly for the intended text colors. */
     color: black; /*Determines default color*/
-    font-family: Aptos; /*Determines the font for body text. */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -120,6 +120,11 @@ textarea, select { /* Styles the text input box on forms. */
   box-sizing: border-box;
 }
 
+a { /* Styles all links. */
+  color:#02492f;
+  font-weight: bold;
+}
+
 /* Style the submit button and back button (on the map page) */
 button {
   width: 100%;
@@ -133,7 +138,7 @@ button {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-  /* Add a background color to the fomr submit button on mouse-over */
+  /* Add a background color to the form and back (map page) button on mouse-over */
   button:hover {
     background-color: yellow;
   }
@@ -142,10 +147,6 @@ button {
   display: block;
   max-width: 85%;
   margin: auto;
-}
-
-.returnFromMap { /* Styles the return button on the map page.*/
-  font-family: Aptos;
 }
 
 footer{
