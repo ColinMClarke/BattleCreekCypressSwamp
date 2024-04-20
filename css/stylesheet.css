@@ -420,12 +420,17 @@ footer{
   /*** BLOG page medium screens***/
 
   .blogImgWide {
-    max-width:100%;
+    max-width:95%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .blogImgTall1, .blogImgTall2 {
-    max-width: 60%;
-    margin-right:20px;
+    max-width: 65%;
+    margin-left: 20px;
+    margin-right:40px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -437,6 +442,12 @@ footer{
   .blogImgTall2{
     float:left;
   }
+
+  .blogP{ /* Styles the textbox from just this page.*/
+    margin-left:20px;
+    margin-right:20px;
+  }
+
 }
 
 
