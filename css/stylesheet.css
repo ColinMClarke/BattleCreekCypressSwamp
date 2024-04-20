@@ -84,6 +84,11 @@ h4 { /*Styles all content headings */
   margin-bottom: -10px;
 }
 
+#boardwalkVideo { /* Styles video on home page. */
+  max-width: 100%; 
+  margin: auto;
+}
+
 img { /* This section scales the images up and down to the screen size. */
   max-width: 100%;
   height: auto;
@@ -464,10 +469,10 @@ footer{
     width:70%;  /*Controls width of nav.*/
   }
   
-  .mainBanner{
+  #boardwalkVideo { /* Styles video on home page. */
+    max-width: 70%; 
     display:block;
-    margin:auto;
-    width: 70%;
+    margin: auto;
   }
 
   .textBox{
