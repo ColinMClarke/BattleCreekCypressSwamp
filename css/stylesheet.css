@@ -182,6 +182,9 @@ footer{
   background-color: white;
 }
 
+.footerLink {
+  color: white;
+}
 
 /*** THINGS TO DO PAGE CONTENT***/
 
@@ -592,6 +595,8 @@ footer{
       max-width:95%;
       margin-left: 20px;
       margin-right: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
   
     .blogImgTall1, .blogImgTall2 {
@@ -604,7 +609,6 @@ footer{
     
     .blogImgTall1{
       float: left;
-
     }
   
     .blogImgTall2{
