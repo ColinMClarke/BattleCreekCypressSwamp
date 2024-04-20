@@ -191,6 +191,15 @@ footer{
   color: white;
 }
 
+/*** ABOUT PAGE CONTENT***/
+
+.aboutImg { /* Styles all images on things to do page.*/
+  max-width: 250px;
+  margin-top: 15px;
+ 
+}
+
+
 /*** THINGS TO DO PAGE CONTENT***/
 
 .thingsImg { /* Styles all images on things to do page.*/
