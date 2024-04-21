@@ -158,7 +158,8 @@ footer{
   background-color: #057a0f;
   color: white;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
+  font-size: .8em;
 }
 
 /*** HOME PAGE CONTENT ***/
@@ -305,7 +306,7 @@ footer{
 
   .map{ /* Styles the map page.*/
     display: block;
-    max-width: 80%;
+    max-width: 65%;
     margin: auto;
   }
 
@@ -489,7 +490,7 @@ footer{
   }
 
   .blogImgTall1, .blogImgTall2 {
-    max-width: 65%;
+    max-width: 55%;
     margin-left: 20px;
     margin-right:40px;
     margin-top: 10px;
@@ -565,7 +566,7 @@ footer{
 
   .map{ /* Styles the map page.*/
     display: block;
-    max-width: 70%;
+    max-width: 60%;
     margin: auto;
   }
 
@@ -750,7 +751,7 @@ footer{
     }
   
     .blogImgTall1, .blogImgTall2 {
-      max-width: 65%;
+      max-width: 50%;
       margin-left: 20px;
       margin-right:40px;
       margin-top: 10px;
