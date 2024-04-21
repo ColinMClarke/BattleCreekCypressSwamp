@@ -188,6 +188,10 @@ footer{
   background-color: white;
 }
 
+.homeList{
+  padding-bottom: 20px;
+}
+
 .footerLink {
   color: white;
 }
